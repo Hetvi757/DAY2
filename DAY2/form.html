@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="userdetails" method="post" action="store detail.asp">
+        
+        first name:
+        <input type="text" name="fname" size="20" placeholder="name">
+        <br>
+        <br>
+
+        last name:
+        <input type="text" name="lname" size="20"  placeholder="surname">
+        <br>
+        <br>
+        User ID:
+        <input type="text" name="userid" size="20">
+        <br>
+        <br>
+        password:
+        <input type="password" name="pass" size="20">
+        <br>
+        <br>
+        select gender:
+        <input type="radio" name="gender">Female  &nbsp;&nbsp;
+        <input type="radio" name="gender">Male
+        <br>
+        <br>
+        Languages:
+        <br>
+        <input type="checkbox" name="gujarati">gujarati<br/>
+        <input type="checkbox" name="hindi">hindi<br/>
+        <input type="checkbox" name="english">english<br/>
+        <br>
+        <br>
+        select your country:
+        <select name="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option> 
+            <option value="pakistan">pakistan</option> 
+            <option value="australia">australia</option> 
+        </select>
+        <br>
+        <br>
+        enter your address:<br>
+        <textarea cols="70" rows="5" name="message"></textarea>
+        <br>
+        <input type="submit" name="save" value="save">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="reset" name="clear" value="clear">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="button" name="go" value="go">
+    </form>
+</body>
+</html>
